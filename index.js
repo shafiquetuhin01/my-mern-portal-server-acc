@@ -6,7 +6,7 @@ const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 var nodemailer = require("nodemailer");
 const mg = require("nodemailer-mailgun-transport");
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
-
+//this is mern service
 const app = express();
 const port = process.env.PORT || 5000;
 
